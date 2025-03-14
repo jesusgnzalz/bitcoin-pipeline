@@ -1,0 +1,16 @@
+# Archivos de sistema
+.DS_Store
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+
+# Modelos pesados
+src/models/*.pkl
+src/models/*.joblib
+
+# Datasets grandes
+src/data/*.csv
